@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Link - Marketplace for Kids' Items</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #444;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #A8E1D0;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .app-info {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 2rem 0;
+        }
+        .app-text {
+            flex: 1;
+            min-width: 300px;
+            padding: 1rem;
+        }
+        .app-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+            padding: 1rem;
+        }
+        .app-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 2rem 0;
+        }
+        .feature {
+            flex-basis: 30%;
+            min-width: 250px;
+            margin: 1rem;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .cta {
+            text-align: center;
+            margin: 3rem 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #A8E1D0;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+        .button:hover {
+            background-color: #8CD7BE;
+            transform: translateY(-2px);
+        }
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #A8E1D0;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .app-info, .features {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Little Link</h1>
+            <p>A Smart Marketplace for Children's Items</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="app-info">
+            <div class="app-text">
+                <h2>The Smart Choice for Growing Children</h2>
+                <p>Little Link is a mobile platform designed to efficiently circulate children's items and help parents build a supportive community.</p>
+                <p>With age-specific categories and easy donation options, you can find and share needed items more easily than ever before.</p>
+                <div class="cta">
+                    <a href="#" class="button">Download on Google Play</a>
+                    <a href="#" class="button">Download on App Store</a>
+                </div>
+            </div>
+            <div class="app-image">
+                <img src="https://via.placeholder.com/300x600" alt="Little Link App Screenshot">
+            </div>
+        </div>
+
+        <h2 style="text-align: center;">Key Features</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Age-Specific Filtering</h3>
+                <p>Easily find products matching your child's age with our age range filters: 0-2 years, 3-5 years, 6-10 years, 11-13 years, and 14-17 years.</p>
+            </div>
+            <div class="feature">
+                <h3>Simple Donation Option</h3>
+                <p>Quickly donate items you no longer need with our free donation feature. Pay it forward to another family!</p>
+            </div>
+            <div class="feature">
+                <h3>Parent Community</h3>
+                <p>Connect with other parents in our community space where you can share parenting tips, experiences, and advice.</p>
+            </div>
+            <div class="feature">
+                <h3>Secure Transactions</h3>
+                <p>Trade with confidence using our trusted user rating system and secure messaging features.</p>
+            </div>
+            <div class="feature">
+                <h3>Location-Based Search</h3>
+                <p>Easily find items near you and arrange convenient in-person exchanges.</p>
+            </div>
+            <div class="feature">
+                <h3>Event Information</h3>
+                <p>Discover and participate in local events for parents and children in your community.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Little Link. All rights reserved.</p>
+            <p><a href="privacy-policy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+</html>
